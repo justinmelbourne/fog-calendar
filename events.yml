@@ -47,97 +47,88 @@ events:
     location: Raymond Kimbell Playground, Geary Blvd & Steiner St, San Francisco
     category: pathway
     status: confirmed
-    notes: "Check-in 7:30pm, session 8–10pm. First sessions are free — bring boots or runners, water, and a mouthguard if you have one."
+    notes: "Check-in from 7:30pm, session 7:30–10pm. First sessions are free — bring boots or runners, water, and workout clothes you don't mind wrecking."
     url: https://www.fogrugby.com/p2r
   - id: 2026-10-08-pathways-2
     title: "Pathway to Rugby — Session 2"
     date: 2026-10-08
-    time: "20:00"
+    time: "19:30"
     end_time: "22:00"
     location: Crocker Amazon Soccer Fields, Moscow St & Italy Ave, San Francisco
     category: pathway
     status: confirmed
-    notes: "Session 8–10pm, then social at the Pilsner Inn afterwards."
+    notes: "Session 7:30–10pm, then social at the Pilsner Inn afterwards."
     url: https://www.fogrugby.com/p2r
   - id: 2026-10-13-pathways-3
     title: "Pathway to Rugby — Session 3"
     date: 2026-10-13
-    time: "20:00"
+    time: "19:30"
     end_time: "22:00"
     location: Raymond Kimbell Playground, Geary Blvd & Steiner St, San Francisco
     category: pathway
     status: confirmed
+    notes: "Session 7:30–10pm. Week 2: safe contact and tackling."
     url: https://www.fogrugby.com/p2r
   - id: 2026-10-15-pathways-4
     title: "Pathway to Rugby — Session 4"
     date: 2026-10-15
-    time: "20:00"
+    time: "19:30"
     end_time: "22:00"
     location: Crocker Amazon Soccer Fields, Moscow St & Italy Ave, San Francisco
     category: pathway
     status: confirmed
-    notes: "Session 8–10pm, then social at the Pilsner Inn afterwards."
+    notes: "Session 7:30–10pm, then social at the Pilsner Inn afterwards."
     url: https://www.fogrugby.com/p2r
   - id: 2026-10-20-pathways-5
     title: "Pathway to Rugby — Session 5"
     date: 2026-10-20
-    time: "20:00"
+    time: "19:30"
     end_time: "22:00"
     location: Raymond Kimbell Playground, Geary Blvd & Steiner St, San Francisco
     category: pathway
     status: confirmed
+    notes: "Session 7:30–10pm. Week 3: rucks, scrums and scrimmage."
     url: https://www.fogrugby.com/p2r
   - id: 2026-10-22-pathways-6
     title: "Pathway to Rugby — Session 6"
     date: 2026-10-22
-    time: "20:00"
+    time: "19:30"
     end_time: "22:00"
     location: Crocker Amazon Soccer Fields, Moscow St & Italy Ave, San Francisco
     category: pathway
     status: confirmed
-    notes: "Session 8–10pm, then social at the Pilsner Inn afterwards."
+    notes: "Session 7:30–10pm, then social at the Pilsner Inn afterwards."
     url: https://www.fogrugby.com/p2r
   - id: 2026-10-27-pathways-7
     title: "Pathway to Rugby — Session 7"
     date: 2026-10-27
-    time: "20:00"
+    time: "19:30"
     end_time: "22:00"
     location: Raymond Kimbell Playground, Geary Blvd & Steiner St, San Francisco
     category: pathway
     status: confirmed
-    notes: "Final Pathways session. Preseason practice starts Thu 29 Oct — see you there."
+    notes: "Final Pathways session (7:30–10pm). Preseason practice starts Thu 29 Oct where rookies meet senior players!"
     url: https://www.fogrugby.com/p2r
 
-# ---------------------------------------------------------------- Training (repeating, Tue/Thu 7:45–10pm)
-  - id: 2026-27-training
-    title: "Fog Training"
-    date: 2026-11-03   # recurring rule starts the week after the standalone first practice (29 Oct) so it isn't doubled up
-    time: "19:45"
-    end_time: "22:00"
-    location: San Francisco — field TBC weekly
-    category: training
-    status: confirmed
-    rrule: "FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20270516T065959Z"
-    exdates:
-      - 2026-11-26   # Thanksgiving
-      - 2026-12-24
-      - 2026-12-29
-      - 2026-12-31
-      - 2027-01-05
-      - 2027-01-07
-      - 2027-01-12
-      - 2027-01-14
-    notes: "Tuesdays & Thursdays 7:45–10:00pm. First preseason practice Thu 29 Oct 2026; regular-season practice resumes 19 Jan 2027. Holiday break dates are best-guess — edit exdates once the coaches confirm."
-
+# ---------------------------------------------------------------- Preseason Kickoff & Rookie Graduation
   - id: 2026-10-29-first-preseason-practice
-    title: "First Preseason Practice"
+    title: "First Preseason Practice — Meet Senior Players"
     date: 2026-10-29
-    time: "19:45"
+    time: "19:30"
     end_time: "22:00"
     location: San Francisco — field TBC
     category: training
     status: confirmed
-    notes: "Preseason 2026 kicks off. Pathways graduates — this is your first full-squad session."
+    notes: "Preseason 2026 kicks off! Pathway rookies join the pitch to train with and meet senior players."
+  - id: 2026-10-30-rookie-graduation-halloween-party
+    title: "Pathway Graduation & Halloween Party"
+    date: 2026-10-30
+    time: "19:00"
+    end_time: "23:00"
+    location: Pilsner Inn, 225 Church St, San Francisco
+    category: social
+    status: confirmed
+    notes: "Graduation celebration and Halloween party for Pathway rookies, senior players, and alumni! Costumes encouraged."
 
 # ---------------------------------------------------------------- Preseason 2026 (email: tentative, may change)
   - id: 2026-11-07-usf-away
